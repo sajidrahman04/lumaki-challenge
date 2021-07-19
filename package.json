@@ -1,0 +1,30 @@
+{
+  "name": "lumaki-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "test": "mocha --timeout 10000 --exit"
+  },
+  "author": "Sajid Rahman",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^9.0.2",
+    "mongodb-memory-server": "^7.2.1",
+    "mongoose": "^5.13.3",
+    "nodemon": "^2.0.12",
+    "supertest": "^6.1.3"
+  }
+}
